@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern
 {
-    public class Soy : CondimentDecorator
+    public class Soy : Beverage
     {
         Beverage beverage;
 

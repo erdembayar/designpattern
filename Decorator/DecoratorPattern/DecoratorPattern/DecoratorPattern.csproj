@@ -45,7 +45,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Beverage.cs" />
-    <Compile Include="CondimentDecorator.cs" />
     <Compile Include="DarkRoast.cs" />
     <Compile Include="Decaf.cs" />
     <Compile Include="Espresso.cs" />

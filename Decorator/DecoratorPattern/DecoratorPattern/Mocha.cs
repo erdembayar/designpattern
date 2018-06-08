@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern
 {
-    public class Mocha : CondimentDecorator
+    public class Mocha : Beverage
     {
         Beverage beverage;
 
