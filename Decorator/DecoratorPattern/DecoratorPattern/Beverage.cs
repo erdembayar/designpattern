@@ -10,7 +10,7 @@ namespace DecoratorPattern
     {
         protected string description = "Unknown Beverage";
 
-        public String getDescription()
+        public virtual String getDescription()
         {
             return description;
         }
