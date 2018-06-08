@@ -27,6 +27,8 @@ namespace DecoratorPattern
             beverage3 = new Whip(beverage3);
             Console.WriteLine(beverage3.getDescription()
                     + " $" + beverage3.cost());
+
+            Console.ReadKey();
         }
     }
 }
