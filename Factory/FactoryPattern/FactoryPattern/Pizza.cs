@@ -7,11 +7,17 @@ namespace FactoryPattern
 
     abstract public class Pizza
     {
-        protected string name;
-        protected string dough;
-        protected string sauce;
+        private string name { get; set; }
+        private string dough { get; set; }
+        private string sauce { get; set; }
         protected List<String> toppings = new List<String>();
 
+        public Pizza(string _name, string _dough, string _sauce)
+        {
+            name = _name;
+            dough = _dough;
+            sauce = _sauce;
+        }
         public String getName()
         {
             return name;

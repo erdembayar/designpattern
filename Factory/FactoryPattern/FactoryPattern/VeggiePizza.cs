@@ -3,11 +3,11 @@
     public class VeggiePizza : Pizza
     {
 
-    public VeggiePizza()
+    public VeggiePizza() : base("Veggie Pizza", "Crust", "Marinara Sauce")
     {
-        name = "Veggie Pizza";
-        dough = "Crust";
-        sauce = "Marinara sauce";
+//        name = "Veggie Pizza";
+//        dough = "Crust";
+//        sauce = "Marinara sauce";
         toppings.Add("Shredded mozzarella");
         toppings.Add("Grated parmesan");
         toppings.Add("Diced onion");

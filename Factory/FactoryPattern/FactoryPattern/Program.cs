@@ -17,6 +17,10 @@ namespace FactoryPattern
             Console.WriteLine("We ordered a " + pizza.getName() + "\n");
             Console.WriteLine(pizza);
 
+            pizza = store.orderPizza("pepperoni");
+            Console.WriteLine("We ordered a " + pizza.getName() + "\n");
+            Console.WriteLine(pizza);
+
             Console.ReadKey();
         }
     }
