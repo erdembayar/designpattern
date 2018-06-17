@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzas", "FactoryPattern\Pizzas.csproj", "{FC87008B-EDBB-4FFF-A5AD-6397D06E1992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzafm", "Pizzafm\Pizzafm.csproj", "{24108224-3735-4516-A86D-043CEC674C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzaaf", "Pizzaaf\Pizzaaf.csproj", "{CA378401-2102-4D53-97E7-22A3A6F75A7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC87008B-EDBB-4FFF-A5AD-6397D06E1992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC87008B-EDBB-4FFF-A5AD-6397D06E1992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC87008B-EDBB-4FFF-A5AD-6397D06E1992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC87008B-EDBB-4FFF-A5AD-6397D06E1992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24108224-3735-4516-A86D-043CEC674C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24108224-3735-4516-A86D-043CEC674C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24108224-3735-4516-A86D-043CEC674C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24108224-3735-4516-A86D-043CEC674C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA378401-2102-4D53-97E7-22A3A6F75A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA378401-2102-4D53-97E7-22A3A6F75A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA378401-2102-4D53-97E7-22A3A6F75A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA378401-2102-4D53-97E7-22A3A6F75A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96B528F4-40CD-4FF2-BB95-01F7759206AD}
+	EndGlobalSection
+EndGlobal
